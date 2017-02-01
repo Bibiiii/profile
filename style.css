@@ -1,0 +1,104 @@
+body {
+  background-color: #FAF8F6;
+  font-family: 'Vollkorn', serif;
+}
+
+h4,
+#pic_table h2 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  color: #407076;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  color: #97B1A6;
+}
+
+h4 {
+  color: #698996;
+}
+
+ul {
+  list-style: none;
+}
+
+ul a {
+  color: #698996;
+  text-decoration: none;
+  font-family: 'Karla', sans-serif;
+}
+
+ul a:hover {
+  color: #EBBAB9;
+}
+
+.card {
+  text-align: center;
+  width: 600px;
+  margin: 20 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #D9E2DE;
+  box-shadow: 2px 2px 2px #C6D4CE;
+}
+
+#header img {
+  padding: 10px;
+  border-radius: 50%;
+  width: 200px;
+}
+
+#pic_table img {
+  margin: 10px;
+  border: 10px solid white;
+  border-bottom: 40px solid white;
+  box-shadow: 2px 2px 2px #C6D4CE;
+}
+
+#pic_table td {
+  padding: 15px;
+  text-align: justify;
+}
+
+#pic_table td h4{
+  text-align: center;
+}
+
+.inline-list {
+  display: inline-block;
+  padding: 0 20;
+  font-size: 16px;
+  padding-left: 0px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #EBBAB9;
+  padding-top: 20px;
+}
+
+.navbar ul {
+  text-align: center;
+  padding-right: 20px;
+}
+
+.navbar a {
+  color: #407076;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.site-right {
+  padding-top: 100px;
+}
+
