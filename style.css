@@ -102,3 +102,16 @@ ul a:hover {
   padding-top: 100px;
 }
 
+#basil {
+  position: fixed;
+  bottom: 5PX;
+  right: 5px;
+  z-index: 10;
+}
+
+#basil img {
+  width: 450px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-right: -100px;
+}
